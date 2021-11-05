@@ -1,0 +1,15 @@
+name: Discord Github Logger
+
+on: [push]
+
+jobs:
+  git:
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v2
+
+    - name: Run Discord Webhook
+      uses: johnnyhuy/discord-webhook@main
+      with:
+        webhook_url: ${{ secrets.WEBHOOK_URL }}

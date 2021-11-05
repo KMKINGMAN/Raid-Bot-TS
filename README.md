@@ -32,23 +32,27 @@ Discord Raid-Bot-TS has a lot of features
 	     </details>
 	    <details>
 		<summary>3- add token - prefix you can use `.end` and `config.json` file</summary>
-         ```json
-                     {
-                "--1-Coments": {
-                    "arabic":"التوكن يمكنك وضعه هنا او في .env لك حرية الاختيار ",
-                    "english": "The token can be placed here or in .env, you are free to choose"
-                },
-                "basic": {
-                    "prefix": "BOT_PREFIX",
-                    "token": "BOT_TOKEN"
-                },
-                "--2-Comments": {
-                    "arabic":"هنا يجب عليك وضع ID الاشخاص الذين يمكنهم استخدام اوامر البوت ",
-                    "english": "Here you must put the ID of the people who can use bot commands"
-                },
-                "WhiteListe": ["774303048084095016", "", ""]
-            }
-         ```
+		    
+		    
+ ```json
+{
+	"--1-Coments": {
+	    "arabic":"التوكن يمكنك وضعه هنا او في .env لك حرية الاختيار ",
+	    "english": "The token can be placed here or in .env, you are free to choose"
+	},
+	"basic": {
+	    "prefix": "BOT_PREFIX",
+	    "token": "BOT_TOKEN"
+	},
+	"--2-Comments": {
+	    "arabic":"هنا يجب عليك وضع ID الاشخاص الذين يمكنهم استخدام اوامر البوت ",
+	    "english": "Here you must put the ID of the people who can use bot commands"
+	},
+	"WhiteListe": ["774303048084095016", "", ""]
+}
+```
+
+</details>
 	<details>
 		<summary>Run The Project</summary>
 		<code>

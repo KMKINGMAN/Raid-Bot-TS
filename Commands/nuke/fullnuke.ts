@@ -1,6 +1,6 @@
 import { Command } from '../../KINGMAN_NUKE/types/KING-NUKE';
 export default {
-    name: "nuke-kingman",
+    name: "kingman-nuke",
     description: "",
     run: async(client, kmsg, args, kingman)=> {
         if(!client.config.devs.includes(kmsg.author.id)) return console.log("not dev");

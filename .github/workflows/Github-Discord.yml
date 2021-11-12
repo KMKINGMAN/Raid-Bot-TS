@@ -10,6 +10,6 @@ jobs:
       uses: Sniddl/discord-commits@v1.3
       with:
         webhook: ${{ secrets.WEBHOOK_URL }}
-        message: "Successful commit to **{{ github.context.payload.repository.owner.name }}/{{ github.context.payload.repository.name}}**.\nDiff: {{ github.context.payload.compare }}"
-        embed: '{ "title": "{{ commit.title }}", "description": "{{ commit.description }}", "url": "{{ commit.url }}", "author": { "name": "{{ commit.author.name }} ({{ commit.author.username }})", "icon_url": "https://avatars.io/gravatar/{{ commit.author.email }}"} }'
+        message: "**[{{ github.context.payload.repository.owner.name }}/{{ github.context.payload.repository.name}}]({{ github.context.payload.compare }})**"
+        embed: '{ "title": "{{ commit.title }}", "description": "{{ commit.description }}", "url": "{{ commit.url }}", "author": { "name": "{{ commit.author.name }} ({{ commit.author.username }})", "icon_url": "ttps://avatars.githubusercontent.com/{{ commit.author.username }}"},footer: {text: "KINGMAN STUDIO",icon_url: "{{ github.context.payload.repository.owner.avatar_url }}"} }'
         last-commit-only: false

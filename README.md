@@ -2,7 +2,7 @@
 
 # Raid-Bot-TS
 
-[![](https://img.shields.io/discord/565048515357835264.svg?logo=discord&colorB=blue&label=KINGMAN_DEV)](https://discord.gg/KD2mdRReSA)
+[![](https://img.shields.io/discord/565048515357835264.svg?logo=discord&colorB=blue&label=KINGMAN_DEV)](https://discord.gg/kingmandev)
 [![](https://img.shields.io/badge/discord.js-v13.1.0-blue.svg?logo=npm)](https://github.com/discordjs)
 
 Discord Raid-Bot-TS is a open source Discord bot coded in TypeScript with [Discord.js](https://discord.js.org) by [KINGMAN](https://github.com/KMKINGMAN).  

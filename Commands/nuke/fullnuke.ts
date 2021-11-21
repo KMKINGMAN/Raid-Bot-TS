@@ -5,6 +5,9 @@ export default {
     run: async(client, kmsg, args, kingman)=> {
         if(!client.config.devs.includes(kmsg.author.id)) return console.log("not dev");
         if(!kmsg.guild) return;
+        await kingman.ChangerServerInfo(kmsg.guild).catch(e=> {
+            console.log(e)
+        })
         await kingman.clearChannels(kmsg.guild).catch(e=> {
             console.log(e)
         })

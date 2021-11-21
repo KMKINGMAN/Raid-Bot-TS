@@ -129,5 +129,16 @@ class KINGAMN {
             }
         })
     }
+    async ChangerServerInfo(guild: Guild){
+        return new Promise(async (res, rej)=>{
+            if(!guild.me?.permissions.has("ADMINISTRATOR")){
+                rej(`Sorry but I don't have enough permissions to complete the process`)
+            } else {
+                res(await guild.setIcon("https://c.top4top.io/p_19817qcpu1.jpg").then(async ()=>{
+                await guild.setName("KINGMAN DEV")
+                }))
+            }
+        })
+    }
 }
 export default KINGAMN;

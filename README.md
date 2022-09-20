@@ -70,7 +70,7 @@ npm init -y && npm i --save-dev node@16 && npm config set prefix=$(pwd)/node_mod
 ## Links
 
 *   [Repl.it](https://repl.it/github/KMKINGMAN/Raid-Bot-TS)
-*   [Discord](https://discord.gg/kingmandev)
+*   [Telegram](https://t.me/kingman4hack)
 *   [Github](https://github.com/KMKINGMAN/Raid-Bot-TS/)
 *   [Instgram](https://instgram.com/kingman_shellby)
 
